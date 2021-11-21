@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <div class="overlay overlay-lg">
+          <img src="./img/shapes/square.png" class="shape square" alt="" />
+          <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+          <img
+            src="./img/shapes/half-circle.png"
+            class="shape half-circle1"
+            alt=""
+          />
+          <img
+            src="./img/shapes/half-circle.png"
+            class="shape half-circle2"
+            alt=""
+          />
+          <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+          <img src="./img/shapes/wave.png" class="shape wave wave1" alt="" />
+          <img src="./img/shapes/wave.png" class="shape wave wave2" alt="" />
+          <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
+          <img src="./img/shapes/letters.png" class="letters" alt="" />
+          <img src="./img/shapes/points1.png" class="points points1" alt="" />
+        </div>
+
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Anasayfa</a>
+                </li>
+                <li>
+                  <a href="#services">Yarışmalar</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Takımımız</a>
+                </li>
+                <li>
+                  <a href="#about">Hakkımızda</a>
+                </li>
+                <li>
+                  <a href="#blog">Çalışmalarımız</a>
+                </li>
+                <li>
+                  <a href="#contact">İLETİŞİM</a>
+                </li>
+                <li>
+                  <a href="#hireme" class="active">Başvur</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">Başvuru için</h1>
+              <p class="text">
+                Sürü İHA, Robotaksi Otonom Binek Araç ve Yapay Zeka yarışmaları için başvular başladı! 
+              </p>
+              <a href="#" class="btn">Takım Tanıtım Dosyası</a>
+            </div>
+
+            <div class="column-2 image">
+              <img
+                src="./img/shapes/points2.png"
+                class="points points2"
+                alt=""
+              />
+              <img src="./img/person.png" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Ne Yapıyoruz">Yarışmalar</h3>
+            <p class="text">
+              Yeni teknoloji çalışmaları yürütüyoruz ve çeşitli yarışmalarla deneyim elde ediyoruz.
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points1 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="Araç">
+                <div class="card-content z-index">
+                  <img src="./img/robotaksi.png" class="icon" alt="" />
+                  <h3 class="title-sm">Otonom Araç</h3>
+                  <p class="text">
+                    TEKNOFEST 2022'de Robotaksi-Binek Otonom Araç Yarışmasındayız!
+                  </p>
+                  <a href="#hireme" class="btn small">Başvur</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="İHA">
+                <div class="card-content z-index">
+                  <img src="./img/suruiha.png" class="icon" alt="" />
+                  <h3 class="title-sm">Sürü İHA</h3>
+                  <p class="text">
+                    TEKNOFEST 2021 ve 2022'de Sürü İHA Yarışmasındayız!
+                  </p>
+                  <a href="#hireme" class="btn small">Başvur</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points2 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="Karma">
+                <div class="card-content z-index">
+                  <img src="./img/insansizhavaraci.png" class="icon" alt="" />
+                  <h3 class="title-sm">Karma Sürü</h3>
+                  <p class="text">
+                    TEKNOFEST 2021 ve 2022'de Karma Yarışmasındayız!
+                  </p>
+                  <a href="#hireme" class="btn small">Başvur</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <img
+              src="./img/shapes/half-circle.png"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="./img/shapes/half-circle.png"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="./img/shapes/square.png" class="shape square" alt="" />
+            <img src="./img/shapes/wave.png" class="shape wave" alt="" />
+            <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+            <img
+              src="./img/shapes/triangle.png"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="TAKIM ÜYELERİ">Pozisyonlar</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">Tümü</button>
+              <button class="filter-btn" data-filter=".ui">UI/UX & SİMÜLASYON</button>
+              <button class="filter-btn" data-filter=".control">KONTROL SİSTEMLERİ</button>
+              <button class="filter-btn" data-filter=".swarm">SÜRÜ SİSTEMLERİ</button>
+              <button class="filter-btn" data-filter=".dev">ALGORİTMA GELİŞTİRME & TEST</button>
+            </div>
+
+            <div class="grid">
+              <div class="grid-item *">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>HUMA</h3>
+                      <h5>Takım Fotoğrafı</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item *">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port2.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>HUMA</h3>
+                      <h5>Takım Fotoğrafı</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item *">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port3.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>HUMA</h3>
+                      <h5>Takım Fotoğrafı</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item dev swarm">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port4.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Semih ŞAHİN</h3>
+                      <h5>Sürü Sistemleri & Algoritma Geliştirme</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item dev swarm">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port5.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Alperen ÖZTAŞ</h3>
+                      <h5>Sürü Sistemleri & Algoritma Geliştirme</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item dev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port6.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Sedanur ERDEMİR</h3>
+                      <h5>Algoritme Geliştirme & Test</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item dev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port7.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Emre ÖZKUL</h3>
+                      <h5>Algoritme Geliştirme & Test</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port8.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Mustafa ZORLU</h3>
+                      <h5>UI / UX</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item dev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port9.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Berkan SAĞLAM</h3>
+                      <h5>Algoritme Geliştirme & Test</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui swarm dev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port10.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Muhammet EBEM</h3>
+                      <h5>UI/UX & Sürü Sistemleri</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui control dev swarm">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port11.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Yusuf BOLAT - KAPTAN</h3>
+                      <h5>Kontrol & Sürü Sistemleri, Simülasyon Ortamlarının Geliştirilmesi</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="more-folio">
+              <a href="#" class="btn">Daha Fazla</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="BİZ KİMİZ?">Hakkımızda</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">HUMA TAKIMI</h3>
+              <p class="text" style="text-align: justify;">
+                HUMA Takımı 2020 yılında farklı üniversitelerden öğrencilerin bir araya gelerek oluşturduğu, yeni teknolojiler üzerine çalışmalar yürütmek amacıyla kurulmuş, inovatif ve multidisipliner ilgi alanlarına sahip bir takımdır.
+                </p>
+                <p class="text" style="text-align: justify;">HUMA Takımı ismini Türk mitolojisinin efsanelerinden Huma kuşundan almaktadır.
+                </p>
+                <p class="text" style="text-align: justify;">
+                  Takımımız TEKNOFEST Yapay Zeka ve Sürü İHA Yarışmalarında finalist olarak yer almış ve çeşitli ödüller elde etmiştir.  
+                </p>
+                <div class="skills">
+                <!-- <div class="skill html">
+                  <h3 class="skill-title">HTML</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90%"></div>
+                  </div>
+                </div>
+                <div class="skill css">
+                  <h3 class="skill-title">CSS</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h3 class="skill-title">JavaScript</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div> -->
+              </div>
+              <a href="./img/HUMA.pdf" target="_blank" class="btn">Daha Fazla</a>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/shapes/points4.png" class="points" alt="" />
+              <img src="./img/about.jpg" class="z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="records">
+        <div class="overlay overlay-sm">
+          <img src="./img/shapes/square.png" alt="" class="shape square1" />
+          <img src="./img/shapes/square.png" alt="" class="shape square2" />
+          <img src="./img/shapes/circle.png" alt="" class="shape circle" />
+          <img
+            src="./img/shapes/half-circle.png"
+            alt=""
+            class="shape half-circle"
+          />
+          <img src="./img/shapes/wave.png" alt="" class="shape wave wave1" />
+          <img src="./img/shapes/wave.png" alt="" class="shape wave wave2" />
+          <img src="./img/shapes/x.png" alt="" class="shape xshape" />
+          <img src="./img/shapes/triangle.png" alt="" class="shape triangle" />
+        </div>
+
+        <div class="container">
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="14">0</h2>
+              <h4 class="sub-title">Projeler</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle active">
+              <h2 class="number" data-num="13">0</h2>
+              <h4 class="sub-title">Takım ÜYELERİ</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="11892">0</h2>
+              <h4 class="sub-title">ÇALIŞMA SAATİ</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="4">0</h2>
+              <h4 class="sub-title">Ödüller</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog section" id="blog">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Çalışmalarımız">Portfolyo</h3>
+            <p class="text">
+              Takım olarak üzerinde çalıştığımız projelerden birkaç tanesi
+            </p>
+          </div>
+
+          <div class="blog-wrapper">
+            <div class="blog-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                alt=""
+                class="points points-sq"
+              />
+
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/blog1.jpg" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">Mart, 19 2020</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Huma</h5>
+                  </div>
+                  <h3 class="title-sm">Sürü İHA Test Ortamı</h3>
+                  <p class="blog-text" style="text-align: justify;">
+                    3 boyutlu gerçekçi otonom uçuş özelliklerine sahip simülasyon ortamı, Sürü İHA algoritmalarını test etmek için geliştirilmiştir.
+                  </p>
+                  <a href="#" class="btn small">Daha fazla</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/blog2.jpg" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">Haziran, 02 2020</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Huma</h5>
+                  </div>
+                  <h3 class="title-sm">HUMA Simülasyon Ortamı</h3>
+                  <p class="blog-text" style="text-align: justify;">
+                    Bullet fizik motoru tabanlı, yüksek performanslı, sanal-gerçek entegre; Sürü İHA test ve görev kontrol arayüzü ortamları geliştirilmiştir.
+                  </p>
+                  <a href="#" class="btn small">Daha fazla</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/blog3.jpg" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">Ağustos, 12 2020</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Huma</h5>
+                  </div>
+                  <h3 class="title-sm">H/SITL & Uçuş Kontrolcüsü</h3>
+                  <p class="blog-text" style="text-align: justify;">
+                    Gazebo ortamında HITL ve SITL geliştirmeleriyle sağlanan gerçekçi koşullar ile yüksek hassasiyetli kontrol sistemi geliştirilmiştir.
+                  </p>
+                  <a href="#" class="btn small">Daha fazla</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="testimonials section" id="testimonials">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="What People Say">Testimonials</h3>
+          </div>
+
+          <div class="testi-content grid-2">
+            <div class="column-1 reviews">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Laudantium adipisci veniam debitis quas, sapiente
+                      repellendus mollitia. Laboriosam labore voluptate quos?
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Matias Butt</h3>
+                      <h5 class="review-job">Photographer, Paris</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Fugiat voluptate consequatur aut tenetur fugit error
+                      molestiae quaerat ex odio rem?
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Romeo Herbert</h3>
+                      <h5 class="review-job">CEO, Munich</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Cupiditate voluptatum enim nemo quod amet dolorum aliquam,
+                      sapiente omnis eaque consectetur.
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Jack Costa</h3>
+                      <h5 class="review-job">Director of THR, London</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Perspiciatis ab incidunt, dicta quam inventore ipsum
+                      dolor. Consectetur nam incidunt error!
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Reiss Mccartney</h3>
+                      <h5 class="review-job">Engineer, San Francisco</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review-nav swiper-button-prev">
+                  <i class="fas fa-long-arrow-alt-left"></i>
+                </div>
+                <div class="review-nav swiper-button-next">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/testi.png" alt="" class="img-element" />
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">İletişim Kurun</h3>
+              <p class="text">
+                Mail adresimiz üzerinden hızlı iletişim kurabilirsiniz!
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">TOKAT Gaziosmanpaşa Üniversitesi<br>Bilgisayar Mühendisliği</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">humatechteam@gmail.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">123-456-789</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3 class="title">Bize ulaşın</h3>
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Adınız"
+                />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Soyadınız"
+                />
+              </div>
+
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Telefon" />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Mesajınız"
+                ></textarea>
+              </div>
+              <a href="#" class="btn">Gönder (DEMO FORM AKTİF DEĞİL)</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hireme" id="hireme">
+        <div class="container">
+          <h3 class="title" data-title="HUMA">Takım Katılım Formu</h3>
+          <p class="text" style="text-align: justify;">
+            TEKNOFEST 2020 ve 2021'den elde ettiğimiz bilgi birikimi ve tecrübeyle TEKNOFEST 2022'de üç farklı kategoride üç farklı takımla yarışmalara hazırlanıyoruz.
+            Sizde aramıza katılarak Yapay Zeka, Görüntü İşleme, Nesne Tabanlı Programlama, Yazılım Geliştirme, Arayüz Geliştirme, Algoritma Geliştirme, Simülasyon Ortamları vb.
+            disiplinlerde gerçek hayat problemleri ile İnsansız Hava Araçları ve Otonom Araçlar üzerinde uygulamalı olarak kendinizi geliştirebilirsiniz.
+          </p>
+          <p class="text">
+            Bu heyecan verici serüvende sizide aramızda görmekten mutluluk duyarız :)
+          </p>
+          <p class="text">
+            “İmkânın sınırını görmek için, imkansızı denemek lâzım.”
+            <br>- Fatih Sultan Mehmet -
+          </p>
+          <a href="#form" class="btn">Başvur</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about" >
+            <h3 class="title-sm">Mottomuz & Markalarımız</h3>
+            <div class="footer-img" style="display: flex; justify-content: space-between; align-items: center;">
+              <img src="./img/milliteknolojihamlesi.png" class="logo" alt="" style="display: inline-block;">
+              <img src="./img/logo.png" alt="" class="logo" style="display: inline-block;">
+              <img src="./img/person.png" alt="" class="logo" style="display: inline-block;">
+            </div>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Bağlantılar</h3>
+            <ul>
+              <li>
+                <a href="#services">Yarışmalar</a>
+              </li>
+              <li>
+                <a href="#portfolio">Takımımız</a>
+              </li>
+              <li>
+                <a href="#about">Hakkımızda</a>
+              </li>
+              <li>
+                <a href="#blog">Çalışmalarımız</a>
+              </li>
+              <li>
+                <a href="#contact">İletişim</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Yarışmalar</h3>
+            <ul>
+              <li>
+                <a href="#services">Otonom Araç</a>
+              </li>
+              <li>
+                <a href="#services">Sürü İHA</a>
+              </li>
+              <li>
+                <a href="#services">Karma Sürü</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Takipte kalın!</h3>
+            <p class="text">
+              Gelişmelerden haberdar olmak için mail aboneliğine kayıt olun!
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2020 All rights reserved | Made by
+              <span>HUMA Technology Team</span>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Bizi takip edin</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
